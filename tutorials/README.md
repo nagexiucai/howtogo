@@ -11,3 +11,6 @@
 - [可变参数函数](./可变参数函数.md "Variadic Functions")
 - [恐慌和恢复](./恐慌和恢复.md "Panic and Recover")
 - [数组](./数组.md "Arrays")
+- [切片](./切片.md "Slices")
+- [字典](./字典.md "Maps")
+- [结构体](./结构体.md "Struct")
