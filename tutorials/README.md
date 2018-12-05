@@ -7,3 +7,7 @@
 - [常量](./常量.md "Constants")
 - [操作符](./操作符.md "Operators")
 - [函数](./函数.md "Functions")
+- [延期函数调用](./延期函数调用.md "Deferred Functions Calls")
+- [可变参数函数](./可变参数函数.md "Variadic Functions")
+- [恐慌和恢复](./恐慌和恢复.md "Panic and Recover")
+- [数组](./数组.md "Arrays")
