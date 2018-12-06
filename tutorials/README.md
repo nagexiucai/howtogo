@@ -15,4 +15,7 @@
 - [字典](./字典.md "Maps")
 - [结构体](./结构体.md "Struct")
 - [接口](./接口.md "Interface")
-- [并发](./并发.md "Concurrency")
+- [并发](./并发.md "Concurrency: goroutine and channel")
+- [日志](./日志.md "Logging")
+- [文件和目录](./文件和目录 "Files and Derectories")
+- [密码](./密码.md "Cryptography")

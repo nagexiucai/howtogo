@@ -5,10 +5,10 @@ import "fmt"
 // 处理panic的defer recover必须在panic发生之前声明
 
 func main() {
-	defer func() {
-		action := recover()
-		fmt.Println("刚才恐慌的值：", action)
-	}()
+	//defer func() {
+	//	action := recover()
+	//	fmt.Println("刚才恐慌的值：", action)
+	//}()
 
 	var action int
 	fmt.Println("输入1表示学生、输入2表示老师。")
@@ -31,4 +31,9 @@ func main() {
 	default:
 		panic(fmt.Sprintf("非法输入：%d", action))
 	}
+
+	defer func() {
+		action := recover()
+		fmt.Println("刚才恐慌的值：", action)
+	}()
 }
