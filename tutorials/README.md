@@ -14,3 +14,5 @@
 - [切片](./切片.md "Slices")
 - [字典](./字典.md "Maps")
 - [结构体](./结构体.md "Struct")
+- [接口](./接口.md "Interface")
+- [并发](./并发.md "Concurrency")
