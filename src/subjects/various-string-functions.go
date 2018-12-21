@@ -18,6 +18,7 @@ import (
  * ToLower
  * ToUpper
  * EqualFold -- 以UTF8编码的字符串通过Unicode小写化后比较
+ * Compare
  */
 
 func main() {
@@ -67,4 +68,9 @@ func main() {
 	fmt.Println("--------------------")
 	fmt.Println("EqualFold ---", strings.EqualFold("Cat", "cAt"))
 	fmt.Println("EqualFold ---", strings.EqualFold("Dog", "doggy"))
+
+	fmt.Println("--------------------")
+	fmt.Println("Compare ---", strings.Compare("India", "Indiana"))
+	fmt.Println("Compare ---", strings.Compare("Indiana", "India"))
+	fmt.Println("Compare ---", strings.Compare("India", "India"))
 }

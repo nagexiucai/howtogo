@@ -8,7 +8,6 @@ func main() {
 	fmt.Scan(&n)
 	for i := 1; i <= n; i++ {
 		sum += i
-
 	}
 	fmt.Println("Sum:", sum)
 }
