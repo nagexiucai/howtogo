@@ -1,5 +1,7 @@
 package main
 
+// go get -u github.com/golang/lint/golint
+
 func main() {
 
 }

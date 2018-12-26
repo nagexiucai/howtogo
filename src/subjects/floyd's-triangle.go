@@ -18,3 +18,15 @@ func main() {
 		fmt.Println("")
 	}
 }
+
+/*
+Enter number of rows:
+5
+ 1
+ 2 3
+ 4 5 6
+ 7 8 9 10
+ 11 12 13 14 15
+
+Process finished with exit code 0
+*/
