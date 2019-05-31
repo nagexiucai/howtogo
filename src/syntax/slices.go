@@ -7,6 +7,9 @@ import "fmt"
 // 对slice做append/copy 都是把slice的值拿出来操作
 
 func main() {
+	var intSliceEmpty = make([]int, 0, 0)
+	fmt.Println("intSliceEmpty, length is", len(intSliceEmpty), "capacity is", cap(intSliceEmpty))
+
 	var intSliceX = make([]int, 10, 20)
 	fmt.Println("intSliceX, length is", len(intSliceX), "capacity is", cap(intSliceX))
 
